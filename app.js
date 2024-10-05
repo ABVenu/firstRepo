@@ -9,7 +9,7 @@ for(let i=0;i<arr.length;i++){
         count++
        }
     }
-    if(count!=2){
+    if(count>2){
         console.log(arr[i], "it is not a Prime Number")
     }
 }
